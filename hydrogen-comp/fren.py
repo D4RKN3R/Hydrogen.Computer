@@ -8,7 +8,7 @@ def tryInt(x):
     except ValueError:
         return -1e9
 
-with open("input.txt") as file:
+with open("input.asm") as file:
     for line in file:    #begin handler
         regbin2 = []
         prtasm = line.strip().split(".")
